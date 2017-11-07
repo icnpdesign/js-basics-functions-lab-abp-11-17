@@ -31,8 +31,7 @@ function calculatesFarePrice (startBlock, endBlock) {
       { return .02 * distanceTravelledInFeet (startBlock, endBlock)
       }
 
-
     default: 'cannot travel that far'
-
+    break;
   }
 }
