@@ -1,5 +1,5 @@
 
-function distanceFromHqInBlocks (start, end); {
+function calculateBlocks (start, end) {
   const distance = (start - end);
   return Math.abs(distance);
 }
