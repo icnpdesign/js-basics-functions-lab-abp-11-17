@@ -13,3 +13,26 @@ function distanceFromHqInFeet (blockNumber) {
 function distanceTravelledInFeet (startBlock, endBlock) {
   return Math.abs(endBlock - startBlock) * 264;
 }
+
+function calculatesFarePrice (startBlock, endBlock) {
+  switch (startBlock, endBlock) {
+    case 'Free':
+      if (distanceTravelledInFeet (startBlock, endBlock) <= 400)
+      { return 0
+    }
+
+    case '2 cents per foot':
+      if (distanceTravelledInFeet (startBlock, endBlock) <= 2000) 
+      { return "Flat Fee";
+      }
+
+    case 'Fixed':
+      if (distanceTravelledInFeet (startBlock, endBlock) <= 2500) 
+      { return .02 * distanceTravelledInFeet (startBlock, endBlock)
+      }
+        
+      
+    default: 'cannot travel that far'
+      
+  }
+}
