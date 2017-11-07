@@ -1,8 +1,8 @@
 
 function distanceFromHqInBlocks (start) {
-  if (start > 42) {
-  const distance = (start - 42);
+  if (start > end) {
+  const distance = (start - end);
   return distance;
-} else { const distance = (42 - start);
+} else { const distance = (42 - end);
 return distance; }
 }
