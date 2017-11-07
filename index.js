@@ -1,5 +1,8 @@
 // Code your solution in this file!
-function calculateVertical (pickupLocation); {
-  (pickupLocation - scuberHQ) * 4
+function calculateVertical (beginningBlock, destinationBlock); {
+  if beginningBlock > destinationBlock {
+  (beginningBlock - destinationBlock)
+} else {
+  (destinationBlock - beginningBlock)
 }
-
+}
