@@ -11,7 +11,7 @@ function distanceFromHqInFeet (blockNumber) {
 }
 function calculateVertical (startBlock, endBlock) {
   if (startBlock > endBlock) {
-  return (startBlock - endBlock) * 264;
-} else { return (endBlock - startBlock) * 264;)
+  return (startBlock - endBlock) * 4;
+} else { return (endBlock - startBlock) * 4;)
  }
 }
