@@ -15,23 +15,12 @@ function distanceTravelledInFeet (startBlock, endBlock) {
 }
 
 function calculatesFarePrice (startBlock, endBlock) {
-  switch (startBlock, endBlock) {
-    case 'Free':
-      if (distanceTravelledInFeet (startBlock, endBlock) <= 400)
+  const feet = distanceTravelledInFeet (startBlock, endBlock);
+  let price;
+
+  switch (feet) {
+    case feet < 400:
+    price = 0
+  }
       { return 0
     }
-
-    case '2 cents per foot':
-      if (distanceTravelledInFeet (startBlock, endBlock) <= 2000)
-      { return "Flat Fee";
-      }
-
-    case 'Fixed':
-      if (distanceTravelledInFeet (startBlock, endBlock) <= 2500)
-      { return .02 * distanceTravelledInFeet (startBlock, endBlock)
-      }
-
-    default: 'cannot travel that far'
-    break;
-  }
-}
