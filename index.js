@@ -1,5 +1,5 @@
 
-function distanceFromHqInBlocks (pickupLocation); {
-  if (pickupLocation >= 42) {return pickupLocation - 42;
-  } else { return 42 - pickupLocation};
+function distanceFromHqInBlocks (start, end); {
+  const distance = (start - end);
+  return Math.abs(distance);
 }
