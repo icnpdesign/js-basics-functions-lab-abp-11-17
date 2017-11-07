@@ -1,8 +1,9 @@
-// Code your solution in this file!
-function calculateVertical (beginningBlock, destinationBlock); {
-  if beginningBlock > destinationBlock {
-  (beginningBlock - destinationBlock)
-} else {
-  (destinationBlock - beginningBlock)
-}
+
+function distanceFromHqInBlocks(pickupLocation);
+{
+  if (pickupLocation > 42) {
+    console.log(pickupLocation - 42);
+  } else {
+    console.log(42 - pickuplocation);
+  }
 }
