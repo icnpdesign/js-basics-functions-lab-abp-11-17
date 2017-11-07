@@ -23,5 +23,5 @@ function calculatesFarePrice (startBlock, endBlock) {
     price = 0;
   }
        return price;
-       default: 'cannot travel that far';
+       default: return 'cannot travel that far';
     }
