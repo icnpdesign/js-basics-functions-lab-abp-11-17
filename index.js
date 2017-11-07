@@ -27,5 +27,12 @@ function calculatesFarePrice (startBlock, endBlock) {
       price = feet * 0.02
       return price;
 
+    case feet < 2500:
+      price = 25
+      return price;
+
+    case feet > 2500:
+      return 'cannot travel that far';
+
     }
   }
