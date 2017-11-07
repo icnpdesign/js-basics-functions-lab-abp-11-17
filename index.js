@@ -23,10 +23,9 @@ function calculatesFarePrice (startBlock, endBlock) {
       price = 0;
       return price;
 
-    }
-switch (true) {
     case feet < 2000:
       price = feet * 0.02
       return price;
 
     }
+  }
