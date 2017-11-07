@@ -1,8 +1,8 @@
 
 let pickupLocation;
 
-function distanceFromHqInBlocks (pickupLocation); {
-  if (pickupLocation >= 42) {return pickupLocation - 42
-  } else {return 42 - pickupLocation
+function distanceFromHqInBlocks (pickupBlock); {
+  if (pickupBlock >= 42) {return pickupBlock - 42
+  } else {return 42 - pickupBlock
   }
 }
