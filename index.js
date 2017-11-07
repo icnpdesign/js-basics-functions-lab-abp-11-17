@@ -7,3 +7,4 @@ function distanceFromHqInBlocks(pickupLocation);
     console.log(42 - pickuplocation);
   }
 }
+pickupLocation(43);
