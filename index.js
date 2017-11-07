@@ -9,10 +9,9 @@ function distanceFromHqInBlocks (blockNumber) {
 function distanceFromHqInFeet (blockNumber) {
   return distanceFromHqInBlocks (blockNumber) * 264
 }
-function distanceTravelledInFeet (blockNumber, end) {
-  if (blockNumber > end) {
-  return (blockNumber - end) * 264;
-} else { return (end - blockNumber) * 264;
- }
-}
+function distanceTravelledInFeet (startBlock, endBlock) {
+  if (startBlock > endBlock) {
+  return (startBlock - endBlock) * 264;
+} else { return (endBlock - startBlock) * 264;)
+ }  
 }
