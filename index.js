@@ -15,12 +15,13 @@ function distanceTravelledInFeet (startBlock, endBlock) {
 }
 
 function calculatesFarePrice (startBlock, endBlock) {
-  const feet = distanceTravelledInFeet (startBlock, endBlock);
+  const feet = distanceTravelledInFeet(startBlock, endBlock);
   let price;
 
   switch (feet) {
     case feet < 400:
-    price = 0
+    price = 0;
   }
-      { return 0
+  
+       return price;
     }
