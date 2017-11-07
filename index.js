@@ -22,6 +22,6 @@ function calculatesFarePrice (startBlock, endBlock) {
     case feet < 400:
     price = 0;
   }
-  
-       return price;
+
+       {return price;
     }
