@@ -1,9 +1,8 @@
 
-let distance;
+let pickupLocation;
 
-function distanceFromHqInBlocks(distance);
-{ distance / 246
-  console.log(`${distance}` blocks)
+function distanceFromHqInBlocks (pickupLocation); {
+  if (pickupLocation >= 42) {return pickupLocation - 42
+  } else {return 42 - pickupLocation
   }
 
-distanceFromHqInBlocks(distance);
