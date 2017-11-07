@@ -1,4 +1,4 @@
-
+let pickupLocation = 43
 function distanceFromHqInBlocks(pickupLocation);
 {
   if (pickupLocation > 42) {
@@ -7,4 +7,4 @@ function distanceFromHqInBlocks(pickupLocation);
     console.log(42 - pickuplocation);
   }
 }
-pickupLocation(43);
+
